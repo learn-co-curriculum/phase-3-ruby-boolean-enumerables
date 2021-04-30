@@ -1,15 +1,15 @@
-# Ruby Boolean Enumerables
+# Boolean Enumerables
 
-## Objectives
+## Learning Goals
 
-1. Understand return values for enumerators.
-2. Use true/false expressions within a block.
-3. Use the `#all?` enumerator to create a true/false return value.
-4. Use the `#none?` enumerator to create a true/false return value.
-5. Use the `#any?` enumerator to create a true/false return value.
-6. Use the `#include?` enumerator to create a true/false return value.
+- Understand return values for enumerators.
+- Use true/false expressions within a block.
+- Use the `#all?` enumerator to create a true/false return value.
+- Use the `#none?` enumerator to create a true/false return value.
+- Use the `#any?` enumerator to create a true/false return value.
+- Use the `#include?` enumerator to create a true/false return value.
 
-## Overview
+## Introduction
 
 When we are iterating over objects in a collection like with `#each` we generally don't care about the return values.
 
@@ -117,5 +117,3 @@ the_numbers.include?(6)   #=> false
 ```
 
 The `#include?` expression first returns `true` because `the_numbers[5] == 42`. When it is run with `6`, it will evaluate to `false` since that item is not present in the array.
-
-
